@@ -6,8 +6,7 @@ var taskConfig = {
   component: {
     name: 'Tooltip',
     dependencies: [
-      'react',
-      'rc-trigger'
+      'react'
     ]
   }
 

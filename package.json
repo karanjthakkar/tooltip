@@ -29,8 +29,7 @@
     "port": 8007
   },
   "browserify-shim": {
-    "react": "global:React",
-    "rc-trigger": "global:Trigger"
+    "react": "global:React"
   },
   "scripts": {
     "build": "rc-tools run build",
