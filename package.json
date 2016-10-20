@@ -28,6 +28,10 @@
   "config": {
     "port": 8007
   },
+  "browserify-shim": {
+    "react": "global:React",
+    "rc-trigger": "global:Trigger"
+  },
   "scripts": {
     "build": "rc-tools run build",
     "gh-pages": "rc-tools run gh-pages",
@@ -52,10 +56,8 @@
     "react-addons-test-utils": "15.x",
     "react-dom": "15.x"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "dependencies": {
-    "rc-trigger": "1.x"
+    "rc-trigger": "1.x",
+    "react-component-gulp-tasks": "^0.7.7"
   }
 }
